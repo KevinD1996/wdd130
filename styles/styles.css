@@ -1,4 +1,7 @@
 
+main{
+    max-width:840px;
+}
 nav {
 
     background-color: steelblue;
@@ -14,11 +17,7 @@ h1{
 
 }
 
-main{
-    max-width:840px;
-    margin: 0 auto;
 
-}
 main img{
     width: 150px;
     height: auto;
