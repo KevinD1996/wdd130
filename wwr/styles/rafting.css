@@ -5,6 +5,8 @@
     --accent1-color: #264653; /* dark slate blue */
     --accent2-color: #e9c46a; /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
+    --body-color:#1a1818;
+    --head-color:#333333;
     --body-font:Arial, Helvetica, sans-serif;
 }
 
@@ -21,21 +23,21 @@ header{
 }
 
 body {
-    font-family: var(--boddy-font);
-    color: var(--boddy-font);
+    font-family: var(--body-font);
+    color: var(--body-color);
 }
 header, main,footer{
-    width: 840px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 h1,h2{
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--heading-color);
 
 }
 nav, p, section,article{
     margin:1rem;
-    padding:5rem;
+    padding:0.5rem;
 }
 .socialmedia a{
     text-decoration: none;
@@ -57,15 +59,14 @@ nav, p, section,article{
     position: absolute;
     top:4rem;
     width: 100%;
-    padding: 4rem;
+    padding: 1rem;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff; /* white text-make sure there is enough contraste with the background- color*/
+    background-color: var(--secondary-color);
+    color: var(--accent1-color); /* white text-make sure there is enough contraste with the background- color*/
 }
 .hero article{
     position:absolute;
-    bottom: 2rem;
+    bottom:2rem;
     left:1rem;
     right:1rem;
     background-color: var(--accent1-color);
