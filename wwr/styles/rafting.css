@@ -35,7 +35,7 @@ nav{
     justify-content: space-around;
 
 }
-nav a {
+nav a:hover {
     color: var(--white);
     text-decoration:none;
     font-weight: bold;
@@ -50,7 +50,7 @@ body {
     font-family: var(--body-font);
     color: var(--body-color);
 }
-nav a: hover{
+.nav a: hover{
     background-color: var(--white);
     color: var(--primary-color);
 }
@@ -70,8 +70,9 @@ nav, p, section,article{
 .socialmedia a{
     text-decoration: none;
 }
-.socialmedia{
-    
+.socialmedia a:hover{
+    background-color: unset;
+
 }
 .socialmedia img{
     width: 4rem;
@@ -93,7 +94,7 @@ nav, p, section,article{
     padding: 1rem;
     text-align: center;
     background-color: var(--secondary-color);
-    color: var(--accent1-color); /* white text-make sure there is enough contraste with the background- color*/
+    color: var(--white); /* white text-make sure there is enough contraste with the background- color*/
 }
 .hero article{
     position:absolute;
