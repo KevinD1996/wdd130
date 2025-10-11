@@ -35,7 +35,7 @@ nav{
     justify-content: space-around;
 
 }
-nav a:hover {
+nav a {
     color: var(--white);
     text-decoration:none;
     font-weight: bold;
@@ -50,7 +50,7 @@ body {
     font-family: var(--body-font);
     color: var(--body-color);
 }
-.nav a: hover{
+nav a:hover{
     background-color: var(--white);
     color: var(--primary-color);
 }
