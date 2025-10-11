@@ -29,27 +29,21 @@ header{
     align-items: center;
     background-color: var(--primary-color);
     color: var(--accent1-color);
+    
 }
 nav{
     display:flex;
     justify-content: space-around;
 
 }
+
 nav a {
     color: var(--white);
     text-decoration:none;
     font-weight: bold;
     padding: 1rem;
-
-
 }
 
-
-
-body {
-    font-family: var(--body-font);
-    color: var(--body-color);
-}
 nav a:hover{
     background-color: var(--white);
     color: var(--primary-color);
@@ -58,15 +52,18 @@ header, main,footer{
     max-width: 1000px;
     margin: 0 auto;
 }
+
 h1,h2{
     font-family: var(--heading-font);
     color: var(--heading-color);
 
 }
+
 nav, p, section,article{
     margin:1rem;
     padding:0.5rem;
 }
+
 .socialmedia a{
     text-decoration: none;
 }
@@ -101,6 +98,7 @@ nav, p, section,article{
     bottom:2rem;
     left:1rem;
     right:1rem;
+    color: var(--white);
     background-color: var(--accent1-color);
     border: 2px solid var(--secondary-color);
     margin-bottom: 2rem;
@@ -112,6 +110,14 @@ nav, p, section,article{
     margin:0 0 1rem;
 
 }
+body {
+    font-family: var(--body-font);
+    color: var(--body-color);
+}
+
+
+
+
 .history{
     display:grid;
     grid-template-columns: 1fr 200px 1fr;
@@ -124,6 +130,11 @@ nav, p, section,article{
 
 }
 .adventures{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+    
+}
+.adventures h2{
     grid-column:1/-1;
     justify-self: center;
 
